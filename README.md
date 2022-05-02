@@ -10,7 +10,7 @@ This is an IPC server/client example.
 
 ## Installation
 
-### Compile
+### Compile (server/ client1/ client2/ client3/)
     mkdir build
     cd build
     cmake ..
