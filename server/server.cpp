@@ -80,10 +80,6 @@ int main() {
     mkfifo(myfifo, 0666);
     mkfifo(myfifo2, 0666);
 
-    // /* open, read, and display the message from the FIFO */
-    // client_to_server = open(myfifo, O_RDONLY);
-    // server_to_client = open(myfifo2, O_WRONLY);
-
 //----------------------------------------------------
 
     // Shared memory init
